@@ -86,4 +86,4 @@ In cmos technology, AND gate is more expensive as we have to connect a NAND gate
 
 #### Conclusion
 
-This lecture mostly consists of the introduction to the course so Mutlu tells about the objectives, labs, study material and the staff and then starts the lecture with transistors and logic gates.  
+This lecture mostly consists of the introduction to the course so Mutlu tells about the objectives, labs, study material and the staff and then starts the lecture with transistors and logic gates.
