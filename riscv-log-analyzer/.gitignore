@@ -2,6 +2,7 @@ output/             # Ignore the output directory where generated reports are st
 *.o                 # Ignore object files
 *.out               # Ignore compiled output files
 *.log               # Ignore log files
+!test_data/*.log    # Do not ignore log files in the test_data directory
 *.txt               # Ignore text files
 .DS_Store           # Ignore macOS specific file
 Thumbs.db           # Ignore Windows specific file
