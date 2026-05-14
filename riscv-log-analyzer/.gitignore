@@ -1,11 +1,21 @@
-output/             # Ignore the output directory where generated reports are stored
-*.o                 # Ignore object files
-*.out               # Ignore compiled output files
-*.log               # Ignore log files
-!test_data/*.log    # Do not ignore log files in the test_data directory
-*.txt               # Ignore text files
-.DS_Store           # Ignore macOS specific file
-Thumbs.db           # Ignore Windows specific file
-desktop.ini         # Ignore Windows specific file
-.vscode/            # Ignore VSCode settings directory
-*.swp               # Ignore Vim swap files
+# Ignore the generated reports folder
+output/
+
+# Ignore log files generally 
+*.log
+# EXCEPT the sample logs required for the project structure
+!test_data/*.log
+
+# OS Files
+.DS_Store
+
+Thumbs.db
+
+# IDE Files
+.vscode/
+*.code-workspace
+
+# Build artifacts
+*.o
+*.out
+bin/

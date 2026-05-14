@@ -1,0 +1,11 @@
+[2026-05-01 12:00:00] TEST START: rv32i-beq
+[2026-05-01 12:00:02] TEST PASS: rv32i-beq (2.10s)
+[2026-05-01 12:00:02] TEST START: rv32i-bne
+[2026-05-01 12:00:03] TEST PASS: rv32i-bne (1.05s)
+[2026-05-01 12:00:03] TEST START: rv32i-blt
+[2026-05-01 12:00:04] TEST FAIL: rv32i-blt (0.85s)
+[2026-05-01 12:00:04] TEST START: rv32i-jal
+[2026-05-01 12:00:04] TEST SKIP: rv32i-jal (not supported)
+[2026-05-01 12:00:05] TEST START: rv32i-jalr
+[2026-05-01 12:00:07] TEST PASS: rv32i-jalr (2.00s)
+[2026-05-01 12:00:08] SUMMARY: 5 tests, 3 passed, 1 failed, 1 skipped

@@ -1,0 +1,9 @@
+[2026-05-01 11:15:20] TEST START: rv32i-sll
+[2026-05-01 11:15:21] TEST PASS: rv32i-sll (0.90s)
+[2026-05-01 11:15:21] TEST START: rv32i-srl
+[2026-05-01 11:15:22] TEST FAIL: rv32i-srl (1.10s)
+[2026-05-01 11:15:22] ERROR: Register t0 value mismatch
+[2026-05-01 11:15:22] TEST START: rv32i-xor
+[2026-05-01 11:15:23] TEST FAIL: rv32i-xor (0.75s)
+[2026-05-01 11:15:23] ERROR: Illegal instruction at 0x80000044
+[2026-05-01 11:15:24] SUMMARY: 3 tests, 1 passed, 2 failed, 0 skipped
